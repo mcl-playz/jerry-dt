@@ -1,14 +1,26 @@
 * {
     font-family: sans-serif;
-    background-color: #222;
     color: white;
+}
+
+.container {
+    margin: 30px;
+    padding: 10px;
+    background-color: rgba(34, 34, 34, 65%);
+    height: calc(100vh - 80px)
+}
+
+body {
+    background-image: url("https://www.planetware.com/wpimages/2019/12/california-in-pictures-beautiful-places-to-photograph-griffith-park-los-angeles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
     margin: 0;
 }
 
-.container {
-    margin: 0;
-    padding: 5px;
+
+button {
+    background-color: #222;
 }
